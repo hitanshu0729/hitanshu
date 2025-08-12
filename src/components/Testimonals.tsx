@@ -10,7 +10,7 @@ const Testimonials = () => {
       id: 1,
       name: "Alex Johnson",
       role: "CEO, TechSolutions Inc.",
-      content: "Working with Simar was an absolute pleasure. Their technical expertise and attention to detail resulted in a web application that exceeded our expectations. The project was delivered ahead of schedule with flawless execution.",
+      content: "Working with Hitanshu was an absolute pleasure. Their technical expertise and attention to detail resulted in a web application that exceeded our expectations. The project was delivered ahead of schedule with flawless execution.",
       rating: 5,
       image: "https://randomuser.me/api/portraits/men/32.jpg"
     },
@@ -18,7 +18,7 @@ const Testimonials = () => {
       id: 2,
       name: "Sarah Williams",
       role: "Product Manager, Digital Innovations",
-      content: "Simar's problem-solving skills are exceptional. They took our complex requirements and turned them into an elegant solution. Their communication throughout the project was outstanding.",
+      content: "Hitanshu's problem-solving skills are exceptional. They took our complex requirements and turned them into an elegant solution. Their communication throughout the project was outstanding.",
       rating: 5,
       image: "https://randomuser.me/api/portraits/women/44.jpg"
     },
@@ -26,7 +26,7 @@ const Testimonials = () => {
       id: 3,
       name: "Michael Chen",
       role: "CTO, Startup Ventures",
-      content: "We hired Simar for a critical project with tight deadlines. Not only did they deliver exceptional quality code, but they also provided valuable insights that improved our overall architecture.",
+      content: "We hired Hitanshu for a critical project with tight deadlines. Not only did they deliver exceptional quality code, but they also provided valuable insights that improved our overall architecture.",
       rating: 4,
       image: "https://randomuser.me/api/portraits/men/75.jpg"
     },
@@ -34,7 +34,7 @@ const Testimonials = () => {
       id: 4,
       name: "Emma Rodriguez",
       role: "Director of Engineering, WebServices Co.",
-      content: "Simar is one of the most talented developers I've worked with. Their ability to quickly understand complex systems and implement efficient solutions is truly impressive.",
+      content: "Hitanshu is one of the most talented developers I've worked with. Their ability to quickly understand complex systems and implement efficient solutions is truly impressive.",
       rating: 5,
       image: "https://randomuser.me/api/portraits/women/63.jpg"
     },
@@ -42,7 +42,7 @@ const Testimonials = () => {
       id: 5,
       name: "David Kim",
       role: "Founder, AppWorks",
-      content: "The mobile application Simar developed for us received glowing reviews from our users. Their clean code and thoughtful architecture made future updates a breeze.",
+      content: "The mobile application Hitanshu developed for us received glowing reviews from our users. Their clean code and thoughtful architecture made future updates a breeze.",
       rating: 5,
       image: "https://randomuser.me/api/portraits/men/81.jpg"
     }

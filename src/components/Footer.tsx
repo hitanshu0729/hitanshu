@@ -114,16 +114,16 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2">
-              <li className="text-gray-400">Sirsa,Haryana</li>
-              <li className="text-gray-400">+91 9541570111</li>
-              <li className="text-gray-400">simarnarula1477@gmail.com</li>
+              <li className="text-gray-400">Jamshedpur,Jharkhand</li>
+              <li className="text-gray-400">+91 8601103675</li>
+              <li className="text-gray-400">hitanshu0729@gmail.com</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © {currentYear} Simar Narula. All rights reserved.
+            © {currentYear} Hitanshu Gavri. All rights reserved.
           </p>
         </div>
       </div>

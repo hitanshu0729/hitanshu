@@ -77,9 +77,9 @@ const Hero = () => {
           >
             Hey, I’m{" "}
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Simar
+              Hitanshu
               <br />
-              Narula
+              Gavri
             </span>
           </motion.h1>
 
@@ -135,9 +135,9 @@ const Hero = () => {
             className="flex items-center justify-center lg:justify-start gap-4 mt-8"
           >
             {[
-              { href: "https://github.com/simar111/", icon: <Github size={24} />, label: "GitHub" },
-              { href: "https://www.linkedin.com/in/simar-narula-0a5b25360/", icon: <Linkedin size={24} />, label: "LinkedIn" },
-              { href: "mailto:simarnarula1477@gmail.com", icon: <Mail size={24} />, label: "Email" },
+              { href: "https://github.com/hitanshu0729/", icon: <Github size={24} />, label: "GitHub" },
+              { href: "https://www.linkedin.com/in/hitanshu-gavri-ba164028a/", icon: <Linkedin size={24} />, label: "LinkedIn" },
+              { href: "mailto:hitanshu0729@gmail.com", icon: <Mail size={24} />, label: "Email" },
             ].map((link, index) => (
               <motion.a
                 key={index}
@@ -164,8 +164,8 @@ const Hero = () => {
           className="relative w-40 h-40 sm:w-52 sm:h-52 md:w-60 md:h-60 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-indigo-500 shadow-2xl"
         >
           <img
-            src="./profile.jpg"
-            alt="Simar Narula"
+            src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-isolated-background-avatar-profile-picture-man_1293239-4866.jpg"
+            alt="Hitanshu Gavri"
             className="w-full h-full object-cover"
           />
           <motion.div

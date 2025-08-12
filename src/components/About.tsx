@@ -20,10 +20,9 @@ const About = () => {
       icon: GraduationCap,
       title: 'Education',
       description: 'B.Tech in Computer Science',
-      duration: '2021 - 2025',
+      duration: '2022 - 2026',
       highlights: [
         'Specialization in Full Stack Development',
-        'Published research on Web3 architectures',
         'Dean\'s List for academic excellence'
       ],
       color: 'from-purple-500 to-purple-600'

@@ -46,8 +46,8 @@ const Navbar = () => {
   ];
 
   const socialLinks: SocialLink[] = [
-    { icon: Github, href: 'https://github.com/simar111/', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/simar-narula-0a5b25360/', label: 'LinkedIn' }
+    { icon: Github, href: 'https://github.com/hitanshu0729/', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/hitanshu-gavri-ba164028a/', label: 'LinkedIn' }
   ];
 
   const scrollToSection = (sectionId: string) => {

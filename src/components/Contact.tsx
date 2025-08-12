@@ -4,20 +4,20 @@ import { MessageCircle } from 'lucide-react';
 
 const Contact = () => {
   const contactDetails = [
-    { icon: Mail, label: 'Email', value: 'simarnarula1477@gmail.com', href: 'mailto:simarnarula1477@gmail.com' },
+    { icon: Mail, label: 'Email', value: 'hitanshu0729@gmail.com', href: 'mailto:hitanshu0729@gmail.com' },
     { 
       icon: MessageCircle, 
       label: 'WhatsApp', 
       value: 'Chat Now', 
-      href: 'https://wa.me/919541570111?text=Hello%20Simar,%20I%20would%20like%20to%20connect!'
+      href: 'https://wa.me/918601103675?text=Hello%Hitanshu,%20I%20would%20like%20to%20connect!'
     },
     { icon: MapPin, label: 'Location', value: 'Sirsa, Haryana' },
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/simar-narula-0a5b25360/', label: 'LinkedIn', handle: '/simarnarula' },
-    { icon: Github, href: 'https://github.com/simar111/', label: 'GitHub', handle: '/simar111' },
-    { icon: Instagram, href: 'https://www.instagram.com/simarxnarula?igsh=cXE2dnhsYmF6b3Q=', label: 'Instagram', handle: '@simarxnarula' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/hitanshu-0a5b25360/', label: 'LinkedIn', handle: '/hitanshu' },
+    { icon: Github, href: 'https://github.com/hitanshu/', label: 'GitHub', handle: '/hitanshu' },
+    { icon: Instagram, href: 'https://www.instagram.com/hitanshu?igsh=cXE2dnhsYmF6b3Q=', label: 'Instagram', handle: '@hitanshu' },
   ];
 
   const containerVariants = {
