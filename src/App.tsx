@@ -6,7 +6,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Testimonials from './components/Testimonals';
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
           <Projects />
         </section>
          <section id="contact">
-          <Testimonials />
         </section>
         <section id="contact">
           <Contact />

@@ -17,34 +17,24 @@ const Projects: React.FC = () => {
 
   const projects: Project[] = useMemo(
     () => [
-            {
-        title: "Play Plates (E-Commerce Website)",
+      {
+        title: "Traffic Management System",
         description:
-          "PlayPlates is a full-featured MERN stack e-commerce platform for toys & crockery, featuring a modern responsive UI, secure Razorpay payment integration, and a complete admin dashboard for product, order, and category management. Built with React.js, Node.js, Express, MongoDB, Tailwind CSS, and optimized with ImageKit for fast image delivery, it delivers a smooth, user-friendly shopping experience across all devices.",
+          "A smart traffic management system project. Efficiently manages and simulates traffic flow using modern algorithms and real-time data. Built for urban environments to reduce congestion and improve safety.",
         image:
-          "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=800&q=80",
-        technologies: ["MongoDB", "Express", "React", "Node.js", "Image Kit ","Razorpay"],
-        githubUrl: "https://github.com/harshit14012006/playplatesuserdashboard",
-        liveUrl: "https://playplatesuserdashboard.vercel.app/",
+          "https://static.vecteezy.com/system/resources/thumbnails/035/857/479/small_2x/suburb-road-with-cargo-truck-trailer-cars-van-and-motorbike-road-over-hills-and-forest-landscape-cityscape-skyline-panorama-suburban-transportation-and-cargo-flat-illustration-vector.jpg",
+        technologies: ["Python", "OpenCV", "YOLO", "Machine Learning"],
+        githubUrl: "https://github.com/hitanshu0729/TrafficManagement",
+        liveUrl: "",
       },
       {
-        title: "Car Service Website",
+        title: "JobJet",
         description:
-          "A full-fledged MERN stack website for booking car services with an advanced admin panel and user dashboard.",
-        image: "/car.png",
-        technologies: ["MongoDB", "Express", "React", "Node.js"],
-        githubUrl: "https://github.com/SoftechInfowayss/carservice",
-        liveUrl: "https://softechhhcarservice.netlify.app/",
-      },
-      {
-        title: "Expense Tracker",
-        description:
-          "A MERN stack expense tracker website with authentication, budget planning, and insightful charts.",
-        image:
-          "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=800&q=80",
-        technologies: ["MongoDB", "Express", "React", "Node.js", "Chart.js"],
-        githubUrl: "https://github.com/SoftechInfowayss/Expensemanager",
-        liveUrl: "https://stexpenseease.netlify.app",
+          "A Job Portal with cookies and JWT authentication, allowing authorised employers to post job listings and view applications, while job seekers can browse and apply to jobs with detailed descriptions upon login.",
+        image: "https://jobjet-frontend.vercel.app/MyJobjetLogo.jpg",
+  technologies: ["HTML", "React.js", "Node.js", "MongoDB", "Express.js"],
+        githubUrl: "https://github.com/hitanshu0729/Jobjet-Frontend",
+        liveUrl: "https://jobjet-frontend.vercel.app/login",
       },
     ],
     []
@@ -72,7 +62,7 @@ const Projects: React.FC = () => {
         </motion.div>
 
         {/* Project Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center place-items-center">
           {projects.map((project, index) => (
             <div
               key={project.title}
@@ -182,16 +172,18 @@ const Projects: React.FC = () => {
                     >
                       <Github size={22} />
                     </motion.a>
-                    <motion.a
-                      href={selectedProject.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="p-3 bg-gray-700/40 rounded-full hover:bg-purple-500 transition-all"
-                    >
-                      <ExternalLink size={22} />
-                    </motion.a>
+                    {selectedProject.liveUrl && selectedProject.title !== "Traffic Management System" && (
+                      <motion.a
+                        href={selectedProject.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="p-3 bg-gray-700/40 rounded-full hover:bg-purple-500 transition-all"
+                      >
+                        <ExternalLink size={22} />
+                      </motion.a>
+                    )}
                   </div>
                 </div>
               </motion.div>

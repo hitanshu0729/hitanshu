@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Database, Terminal, Globe, GitBranch, Layers, Gamepad2, Cpu, Server, Smartphone } from 'lucide-react';
+import { Code, Database, Terminal, Globe, GitBranch, Layers } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -36,15 +36,6 @@ const Skills = () => {
       color: 'from-emerald-500 to-teal-500'
     },
     {
-      icon: Gamepad2,
-      title: 'Game Development',
-      skills: [
-        { name: 'Unity', level: 60 },
-        { name: 'C#', level: 55 },
-      ],
-      color: 'from-amber-500 to-orange-500'
-    },
-    {
       icon: GitBranch,
       title: 'DevOps & Tools',
       skills: [
@@ -60,7 +51,6 @@ const Skills = () => {
       skills: [
         { name: 'Tailwind CSS', level: 90 },
         { name: 'React Bootstrap', level: 85 },
-        { name: 'Framer Motion', level: 75 },
       ],
       color: 'from-rose-500 to-red-500'
     },
@@ -183,9 +173,6 @@ const Skills = () => {
                     >
                       <div className="flex justify-between items-center">
                         <span className="text-sm font-medium text-gray-300">{skill.name}</span>
-                        <span className="text-xs text-gray-400">
-                          {proficiencyLabels[Math.round(skill.level / 10) * 10] || 'Intermediate'}
-                        </span>
                       </div>
                       <div className="w-full bg-gray-800 rounded-full h-2">
                         <motion.div 
